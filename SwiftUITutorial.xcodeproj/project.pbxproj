@@ -12,6 +12,7 @@
 		2D89E7152BD7F2F300F89BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E7142BD7F2F300F89BF8 /* Assets.xcassets */; };
 		2D89E7182BD7F2F300F89BF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D89E7172BD7F2F300F89BF8 /* Preview Assets.xcassets */; };
 		2D89E71F2BD7F4DE00F89BF8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E71E2BD7F4DE00F89BF8 /* CircleImage.swift */; };
+		2D89E7212BD7F66B00F89BF8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E7202BD7F66B00F89BF8 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2D89E7142BD7F2F300F89BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D89E7172BD7F2F300F89BF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D89E71E2BD7F4DE00F89BF8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2D89E7202BD7F66B00F89BF8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				2D89E7142BD7F2F300F89BF8 /* Assets.xcassets */,
 				2D89E7162BD7F2F300F89BF8 /* Preview Content */,
 				2D89E71E2BD7F4DE00F89BF8 /* CircleImage.swift */,
+				2D89E7202BD7F66B00F89BF8 /* MapView.swift */,
 			);
 			path = SwiftUITutorial;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D89E7132BD7F2F200F89BF8 /* ContentView.swift in Sources */,
+				2D89E7212BD7F66B00F89BF8 /* MapView.swift in Sources */,
 				2D89E7112BD7F2F200F89BF8 /* SwiftUITutorialApp.swift in Sources */,
 				2D89E71F2BD7F4DE00F89BF8 /* CircleImage.swift in Sources */,
 			);
