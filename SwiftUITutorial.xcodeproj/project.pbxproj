@@ -38,6 +38,7 @@
 		2D89E7582BD95BF800F89BF8 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E7572BD95BF800F89BF8 /* ProfileHost.swift */; };
 		2D89E75A2BD95C4200F89BF8 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E7592BD95C4200F89BF8 /* ProfileSummary.swift */; };
 		2D89E75C2BD95CD700F89BF8 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E75B2BD95CD700F89BF8 /* HikeBadge.swift */; };
+		2D89E75E2BD9609600F89BF8 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E75D2BD9609600F89BF8 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		2D89E7572BD95BF800F89BF8 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		2D89E7592BD95C4200F89BF8 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		2D89E75B2BD95CD700F89BF8 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		2D89E75D2BD9609600F89BF8 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				2D89E7572BD95BF800F89BF8 /* ProfileHost.swift */,
 				2D89E7592BD95C4200F89BF8 /* ProfileSummary.swift */,
+				2D89E75D2BD9609600F89BF8 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				2D89E7432BD9374500F89BF8 /* Hike.swift in Sources */,
 				2D89E73A2BD92B2600F89BF8 /* BadgeSymbol.swift in Sources */,
 				2D89E72E2BD7FBAA00F89BF8 /* LandmarkList.swift in Sources */,
+				2D89E75E2BD9609600F89BF8 /* ProfileEditor.swift in Sources */,
 				2D89E7302BD8036000F89BF8 /* LandmarkDetail.swift in Sources */,
 				2D89E74C2BD937AA00F89BF8 /* HikeView.swift in Sources */,
 				2D89E73C2BD92BF100F89BF8 /* RotatedBadgeSymbol.swift in Sources */,
