@@ -11,6 +11,7 @@ import UIKit
 
 struct PageViewController<Page: View>: UIViewControllerRepresentable {
     var pages: [Page]
+    @Binding var currentPage: Int
     
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
@@ -19,11 +20,12 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIPageViewController {
         let pageViewController = getVC()
         pageViewController.dataSource = context.coordinator
+        pageViewController.delegate = context.coordinator
         return pageViewController
     }
     func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
         pageViewController.setViewControllers(
-            [context.coordinator.controllers[0]], direction: .forward, animated: true)
+            [context.coordinator.controllers[currentPage]], direction: .forward, animated: true)
     }
     
     private func getVC() -> UIPageViewController {
@@ -33,7 +35,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         return pageViewController
     }
     
-    class Coordinator: NSObject, UIPageViewControllerDataSource  {
+    class Coordinator:  NSObject, UIPageViewControllerDataSource, UIPageViewControllerDelegate  {
         var parent: PageViewController
         var controllers = [UIViewController]()
         
@@ -67,6 +69,17 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
             }
             return controllers[index + 1]
         }
+        func pageViewController(
+            _ pageViewController: UIPageViewController,
+            didFinishAnimating finished: Bool,
+            previousViewControllers: [UIViewController],
+            transitionCompleted completed: Bool) {
+                if completed,
+                   let visibleViewController = pageViewController.viewControllers?.first,
+                   let index = controllers.firstIndex(of: visibleViewController) {
+                    parent.currentPage = index
+                }
+            }
     }
     
 }
