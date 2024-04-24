@@ -24,6 +24,7 @@
 		2D89E7382BD928CD00F89BF8 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E7372BD928CD00F89BF8 /* BadgeBackground.swift */; };
 		2D89E73A2BD92B2600F89BF8 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E7392BD92B2600F89BF8 /* BadgeSymbol.swift */; };
 		2D89E73C2BD92BF100F89BF8 /*  RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E73B2BD92BF100F89BF8 /*  RotatedBadgeSymbol.swift */; };
+		2D89E73E2BD92C8C00F89BF8 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89E73D2BD92C8C00F89BF8 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		2D89E7372BD928CD00F89BF8 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		2D89E7392BD92B2600F89BF8 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		2D89E73B2BD92BF100F89BF8 /*  RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " RotatedBadgeSymbol.swift"; sourceTree = "<group>"; };
+		2D89E73D2BD92C8C00F89BF8 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2D89E7372BD928CD00F89BF8 /* BadgeBackground.swift */,
 				2D89E7392BD92B2600F89BF8 /* BadgeSymbol.swift */,
 				2D89E73B2BD92BF100F89BF8 /*  RotatedBadgeSymbol.swift */,
+				2D89E73D2BD92C8C00F89BF8 /* Badge.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D89E7132BD7F2F200F89BF8 /* ContentView.swift in Sources */,
+				2D89E73E2BD92C8C00F89BF8 /* Badge.swift in Sources */,
 				2D89E7212BD7F66B00F89BF8 /* MapView.swift in Sources */,
 				2D89E7112BD7F2F200F89BF8 /* SwiftUITutorialApp.swift in Sources */,
 				2D89E7322BD81C1100F89BF8 /* FavoriteButton.swift in Sources */,
